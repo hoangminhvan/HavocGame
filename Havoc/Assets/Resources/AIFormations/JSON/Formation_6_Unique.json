@@ -1,0 +1,46 @@
+{
+    "units": [
+        {
+            "playerOwner": 2,
+            "unitID": "Warrior",
+            "coords": { "x": 14, "y": 5 },
+            "currentHP": 100,
+            "currentMana": 100
+        },
+        {
+            "playerOwner": 2,
+            "unitID": "Assassin",
+            "coords": { "x": 7, "y": 1 },
+            "currentHP": 100,
+            "currentMana": 30
+        },
+        {
+            "playerOwner": 2,
+            "unitID": "Mage",
+            "coords": { "x": 12, "y": 2 },
+            "currentHP": 100,
+            "currentMana": 30
+        },
+        {
+            "playerOwner": 2,
+            "unitID": "Vampire",
+            "coords": { "x": 13, "y": 3 },
+            "currentHP": 100,
+            "currentMana": 100
+        },
+        {
+            "playerOwner": 2,
+            "unitID": "Healer",
+            "coords": { "x": 10, "y": 1 },
+            "currentHP": 100,
+            "currentMana": 100
+        },
+        {
+            "playerOwner": 2,
+            "unitID": "Berserker",
+            "coords": { "x": 6, "y": 0 },
+            "currentHP": 100,
+            "currentMana": 100
+        }
+    ]
+}

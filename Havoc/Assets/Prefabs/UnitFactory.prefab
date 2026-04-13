@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3056801334660911382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1074222253563839560}
+  - component: {fileID: 5504802791802338178}
+  m_Layer: 0
+  m_Name: UnitFactory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1074222253563839560
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3056801334660911382}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 583.35315, y: 71.44633, z: -5.1423073}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5504802791802338178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3056801334660911382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd575936dc482954aac040b22470ffe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitDatabase:
+  - unitID: Healer
+    prefab: {fileID: 8074913541165207617, guid: 6a14920b470828f4da226578105db529, type: 3}
+  - unitID: Mage
+    prefab: {fileID: 3160916555927688409, guid: 066e7cfb1cd15594aa8afca54ef05374, type: 3}
+  - unitID: Warrior
+    prefab: {fileID: 2370982855187976305, guid: 0e9afbd83a736bb4b91c80a558102097, type: 3}
+  - unitID: Vampire
+    prefab: {fileID: 180645575474350742, guid: 459c0f5911a01c740afdde553b1104b9, type: 3}
+  - unitID: Berserker
+    prefab: {fileID: 2953445102621246129, guid: 5c41aaa4f2abd204c8428c797dbab3a2, type: 3}
+  - unitID: Assassin
+    prefab: {fileID: 8085993014472580508, guid: 14c03d8b760cb96468197f195c50152f, type: 3}
