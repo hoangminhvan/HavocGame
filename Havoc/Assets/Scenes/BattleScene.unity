@@ -2279,7 +2279,7 @@ SpriteRenderer:
   m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &100527601
@@ -7385,7 +7385,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.5599, y: 0.7}
+  m_AnchoredPosition: {x: -69.4, y: 0.7}
   m_SizeDelta: {x: 229.1977, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &440457344
@@ -26765,7 +26765,7 @@ SpriteRenderer:
   m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &2042591098
@@ -26896,7 +26896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.5599, y: 0.7}
+  m_AnchoredPosition: {x: -69.400024, y: 0.7}
   m_SizeDelta: {x: 229.1977, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2072275912

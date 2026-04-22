@@ -40,9 +40,40 @@ public class MainMenuManager : MonoBehaviour
 
     public void OnContinueClicked()
     {
-        // Load the last saved scene 
-        string sceneToLoad = PlayerPrefs.GetString("SavedScene", "PrepareState");
-        SceneManager.LoadScene(sceneToLoad);
+
+        bool hasSaveInRepo = DataStorageContext.Repository.HasSavedMatch();
+
+        if (hasSaveInRepo)
+        {
+            MatchSaveData data = DataStorageContext.Repository.LoadMatch();
+
+            if (data == null)
+            {
+                return;
+            }
+            else
+            {
+            }
+
+            // 3. Đổ dữ liệu vào GameData
+            if (GameData.Instance != null)
+            {
+                GameData.Instance.p1Units = data.p1Units;
+                GameData.Instance.p2Units = data.p2Units;
+                GameData.Instance.isPvEMode = data.isPvE;
+
+            }
+            else
+            {
+                return; // Không chuyển cảnh nếu GameData chết
+            }
+
+            SceneManager.LoadScene("BattleScene");
+        }
+        else
+        {
+            Debug.LogWarning("No save file found in Repository!");
+        }
     }
 
     public void OnStartGameClicked()

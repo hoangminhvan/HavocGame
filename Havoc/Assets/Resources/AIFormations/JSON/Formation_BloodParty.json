@@ -1,0 +1,34 @@
+{
+    "units": [
+        {
+            "playerOwner": 2,
+            "unitID": "Berserker",
+            "coords": { "x": 12, "y": 4 }
+        },
+        {
+            "playerOwner": 2,
+            "unitID": "Berserker",
+            "coords": { "x": 11, "y": 3 }
+        },
+        {
+            "playerOwner": 2,
+            "unitID": "Healer",
+            "coords": { "x": 12, "y": 2 }
+        },
+        {
+            "playerOwner": 2,
+            "unitID": "VampiBerserkerre",
+            "coords": { "x": 15, "y": 6 }
+        },
+        {
+            "playerOwner": 2,
+            "unitID": "Healer",
+            "coords": { "x": 16, "y": 5 }
+        },
+        {
+            "playerOwner": 2,
+            "unitID": "Berserker",
+            "coords": { "x": 9, "y": 2 }
+        }
+    ]
+}

@@ -81,7 +81,16 @@ public abstract class BaseUnit : MonoBehaviour, IPointerEnterHandler, IPointerEx
         InitStats();
         currentHP = maxHP;
         currentMana = maxMana;
-
+        if (hpSlider != null)
+        {
+            hpSlider.maxValue = maxHP;
+            hpSlider.value = 0; 
+        }
+        if (manaSlider != null)
+        {
+            manaSlider.maxValue = maxMana;
+            manaSlider.value = 0;
+        }
         initialLocalPos = transform.localPosition;
         SetSelected(false);
 
@@ -331,7 +340,9 @@ public abstract class BaseUnit : MonoBehaviour, IPointerEnterHandler, IPointerEx
     public void RegenMana()
     {
         currentMana = Mathf.Clamp(currentMana + manaRegen, 0, maxMana);
+
         NotifyManaChanged();
+
     }
 
     /// Restores mana via items or effects.

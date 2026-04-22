@@ -179,7 +179,7 @@ public class DraftingGameManager : MonoBehaviour
                 if (t.zone == TileZone.Player1 && t.IsOccupied)
                     t.ClearUnit();
 
-            p1Gold = 30;
+            p1Gold = 20;
             GameData.Instance.p1Units.Clear();
         }
         else
@@ -188,7 +188,7 @@ public class DraftingGameManager : MonoBehaviour
                 if (t.zone == TileZone.Player2 && t.IsOccupied)
                     t.ClearUnit();
 
-            p2Gold = 30;
+            p2Gold = 20;
             GameData.Instance.p2Units.Clear();
         }
 

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PauseManager : MonoBehaviour
@@ -75,14 +76,42 @@ public class PauseManager : MonoBehaviour
 
     public void OnNewGameClicked()
     {
-        // Start a new game and clear old save data
+        bool wasPvE = false;
+        if (GameData.Instance != null)
+        {
+            wasPvE = GameData.Instance.isPvEMode;
+        }
+
         ResumeGame();
 
         PlayerPrefs.SetInt("HasSave", 0);
         PlayerPrefs.Save();
 
+        if (DataStorageContext.Repository != null)
+            DataStorageContext.Repository.ClearSavedMatch();
+
         if (GameData.Instance != null)
+        {
             GameData.Instance.ClearData();
+
+            GameData.Instance.isPvEMode = wasPvE;
+
+            if (wasPvE)
+            {
+                AIFormationExporter exporter = new AIFormationExporter();
+                exporter.SetStrategy(new JsonFormationExportStrategy());
+                List<PlacedUnitInfo> aiFormation = exporter.ExecuteExport();
+
+                if (aiFormation != null && aiFormation.Count > 0)
+                {
+                    GameData.Instance.p2Units = aiFormation;
+                    GameData.Instance.p2AliveUnits = aiFormation.Count;
+                }
+                else
+                {
+                }
+            }
+        }
 
         SceneManager.LoadScene("PrepareState");
     }
@@ -103,22 +132,21 @@ public class PauseManager : MonoBehaviour
 
     public void ReturnToMenu()
     {
-        // Save current match state if in battle scene
         if (SceneManager.GetActiveScene().name == "BattleScene" && BattleGameManager.Instance != null)
         {
             MatchSaveData currentData = new MatchSaveData();
-
             currentData.currentTurn = TurnHandler.Instance.currentTurn;
             currentData.currentPlayerTurn = TurnHandler.Instance.currentPlayerTurn;
             currentData.currentEnergy = TurnHandler.Instance.currentEnergy;
 
-            BaseUnit[] allUnits = FindObjectsByType<BaseUnit>(FindObjectsSortMode.None);
+            if (GameData.Instance != null)
+                currentData.isPvE = GameData.Instance.isPvEMode;
 
+            BaseUnit[] allUnits = FindObjectsByType<BaseUnit>(FindObjectsSortMode.None);
             foreach (BaseUnit unit in allUnits)
             {
-                if (unit.currentHP > 0 && unit.currentTile != null && unit.gameObject.activeInHierarchy)
+                if (unit.currentHP > 0 && unit.gameObject.activeInHierarchy)
                 {
-                    // Save unit state data
                     PlacedUnitInfo unitInfo = new PlacedUnitInfo();
                     unitInfo.unitID = unit.unitID;
                     unitInfo.playerOwner = unit.ownerPlayer;
@@ -127,16 +155,15 @@ public class PauseManager : MonoBehaviour
                     unitInfo.currentMana = unit.currentMana;
 
                     if (unit.ownerPlayer == 1) currentData.p1Units.Add(unitInfo);
-                    else if (unit.ownerPlayer == 2) currentData.p2Units.Add(unitInfo);
+                    else currentData.p2Units.Add(unitInfo);
                 }
             }
-
-            // Save match data using repository
             DataStorageContext.Repository.SaveMatch(currentData);
+            PlayerPrefs.SetInt("HasSave", 1); 
+            PlayerPrefs.Save();
         }
 
-        // Return to main menu
-        ResumeGame();
+        ResumeGame(); 
         SceneManager.LoadScene("MainMenu");
     }
 }

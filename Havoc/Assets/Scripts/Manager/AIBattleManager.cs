@@ -28,7 +28,6 @@ public class AIBattleManager : MonoBehaviour
 
     private IEnumerator AILogicRoutine()
     {
-        Debug.Log("[AI] Bắt đầu suy nghĩ chiến thuật...");
         yield return new WaitForSeconds(1.5f); 
 
         while (TurnHandler.Instance.currentPlayerTurn == 2 && TurnHandler.Instance.currentEnergy >= 3)
@@ -37,7 +36,6 @@ public class AIBattleManager : MonoBehaviour
 
             if (nextAction == null)
             {
-                Debug.Log("[AI] Không còn hành động nào khả thi hoặc hết năng lượng. Kết thúc lượt.");
                 TurnHandler.Instance.EndTurn();
                 break;
             }
@@ -172,17 +170,14 @@ public class AIBattleManager : MonoBehaviour
 
         if (action.ActionType == AIAction.Type.Attack)
         {
-            Debug.Log($"[AI] {action.Actor.unitID} ĐÁNH {action.TargetUnit.unitID}");
             ActionHandler.Instance.ProcessAttack(action.Actor, action.TargetUnit);
         }
         else if (action.ActionType == AIAction.Type.Skill)
         {
-            Debug.Log($"[AI] {action.Actor.unitID} DÙNG SKILL vào {action.TargetUnit.unitID}");
             ActionHandler.Instance.ProcessSkill(action.Actor, action.TargetTile, action.TargetUnit);
         }
         else if (action.ActionType == AIAction.Type.Move)
         {
-            Debug.Log($"[AI] {action.Actor.unitID} DI CHUYỂN tới {action.TargetTile.GridCoords}");
             ActionHandler.Instance.ProcessMove(action.Actor, action.Actor.currentTile, action.TargetTile);
         }
     }

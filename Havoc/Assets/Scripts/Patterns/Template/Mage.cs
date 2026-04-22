@@ -9,8 +9,8 @@ public class Mage : BaseUnit
     {
         unitID = "Mage"; unitName = "Merlin";
         maxHP = 60; maxMana = 60;
-        damage = 25; defense = 5;
-        moveRange = 2; attackRange = 4; // Tam xa
+        damage = 20; defense = 5;
+        moveRange = 2; attackRange = 3; // Tam xa
         manaRegen = 10; skillManaCost = 40;
 
         isOffensiveSkill = true;

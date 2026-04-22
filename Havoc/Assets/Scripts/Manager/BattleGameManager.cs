@@ -16,7 +16,7 @@ public class BattleGameManager : MonoBehaviour
     public const int MOVE_ENERGY = 3;
     public const int ATTACK_ENERGY = 3;
     public const int SKILL_ENERGY = 4;
-    public const int ITEM_ENERGY = 5;
+    public const int ITEM_ENERGY = 4;
 
     [Header("Camera Settings")]
     public Transform cameraTransform;
@@ -44,9 +44,29 @@ public class BattleGameManager : MonoBehaviour
 
     private void Start()
     {
-        // Setup battlefield and start the first turn
         InitializeBattlefield();
         GameData.Instance.InitializeBattle();
+
+        if (DataStorageContext.Repository.HasSavedMatch())
+        {
+            MatchSaveData savedData = DataStorageContext.Repository.LoadMatch();
+            if (savedData != null)
+            {
+                TurnHandler.Instance.currentTurn = savedData.currentTurn;
+                TurnHandler.Instance.currentPlayerTurn = savedData.currentPlayerTurn;
+                TurnHandler.Instance.currentEnergy = savedData.currentEnergy;
+                TurnHandler.Instance.UpdateTurnUI();
+
+                if (savedData.isPvE && AIBattleManager.Instance != null)
+                {
+                    AIBattleManager.Instance.gameObject.SetActive(true);
+                    if (savedData.currentPlayerTurn == 2)
+                        AIBattleManager.Instance.OnTurnStarted(2);
+                }
+                return; 
+            }
+        }
+
         TurnHandler.Instance.StartNewTurn(1, 1);
     }
 
@@ -118,6 +138,14 @@ public class BattleGameManager : MonoBehaviour
                         unitScript.currentTile = targetTile;
                         targetTile.OccupiedUnit = placedUnit;
 
+                        if (info.currentHP > 0)
+                        {
+                            unitScript.currentHP = info.currentHP;
+                            unitScript.currentMana = info.currentMana;
+
+                            unitScript.NotifyHealthChanged();
+                            unitScript.NotifyManaChanged();
+                        }
                         // Apply team color/appearance
                         unitScript.SetupTeamAppearance();
                     }

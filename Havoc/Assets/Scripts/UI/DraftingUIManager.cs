@@ -84,6 +84,23 @@ public class DraftingUIManager : MonoBehaviour
 
     public void OnConfirmButtonClicked()
     {
+        int currentTurn = DraftingGameManager.Instance.currentPlayerTurn;
+
+
+        BaseUnit[] unitsOnField = FindObjectsByType<BaseUnit>(FindObjectsSortMode.None);
+        int unitCount = 0;
+        foreach (var u in unitsOnField)
+        {
+            if (u.ownerPlayer == currentTurn) unitCount++;
+        }
+
+        if (unitCount <= 0)
+        {
+            textStatus.text = $"Player {currentTurn} must place at least one unit!";
+            return; 
+        }
+
+        // 3. Logic xử lý Confirm như cũ
         if (DraftingGameManager.Instance.currentPlayerTurn == 1)
         {
             if (GameData.Instance != null && GameData.Instance.isPvEMode)
@@ -91,7 +108,7 @@ public class DraftingUIManager : MonoBehaviour
                 DraftingGameManager.Instance.ResetMapForBattle();
                 SceneManager.LoadScene("BattleScene");
             }
-            else 
+            else
             {
                 SetupPlayer2Turn();
             }

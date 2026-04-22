@@ -3,20 +3,124 @@
   "WorkspaceRootPath": "D:\\Game Programing\\Havoc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\strategy\\csvformationexportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\strategy\\csvformationexportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\manager\\battlegamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\battlegamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\strategy\\aiformationexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\strategy\\aiformationexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\manager\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\strategy\\jsonformationexportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\manager\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\repository\\matchsavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\repository\\matchsavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\manager\\turnhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\turnhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\manager\\aibattlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\aibattlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\manager\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\manager\\pvemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\pvemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\repository\\jsonmatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\repository\\jsonmatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\repository\\imatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\repository\\imatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\ui\\draftinguimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\draftinguimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|D:\\Game Programing\\Havoc\\assets\\scripts\\patterns\\template\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\template\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\manager\\draftinggamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\draftinggamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\command\\movecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\command\\movecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\template\\baseunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\template\\baseunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|D:\\Game Programing\\Havoc\\assets\\scripts\\patterns\\strategy\\jsonformationexportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\strategy\\jsonformationexportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\strategy\\iaiformationexportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|D:\\Game Programing\\Havoc\\assets\\scripts\\patterns\\strategy\\aiformationexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\strategy\\aiformationexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|D:\\Game Programing\\Havoc\\assets\\scripts\\patterns\\strategy\\iaiformationexportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\strategy\\iaiformationexportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\template\\healer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\template\\healer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\observer\\battleuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\observer\\battleuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\template\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\template\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\command\\itemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\command\\itemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\manager\\consumableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\consumableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\template\\berserker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\template\\berserker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\template\\vampire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\template\\vampire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\template\\assassin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\template\\assassin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\state\\unitidlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\state\\unitidlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|d:\\game programing\\havoc\\assets\\scripts\\patterns\\state\\unitwaitingattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\state\\unitwaitingattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|D:\\Game Programing\\Havoc\\assets\\scripts\\patterns\\state\\unitwaitingskillstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\state\\unitwaitingskillstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|D:\\Game Programing\\Havoc\\assets\\scripts\\patterns\\strategy\\csvformationexportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F219539B-0C81-C92E-A281-2BFA69595AA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patterns\\strategy\\csvformationexportstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +130,387 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PvEManager.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\PvEManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\PvEManager.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\PvEManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\PvEManager.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T17:48:04.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JsonMatchRepository.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Repository\\JsonMatchRepository.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Repository\\JsonMatchRepository.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Repository\\JsonMatchRepository.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Repository\\JsonMatchRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T17:32:39.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IMatchRepository.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Repository\\IMatchRepository.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Repository\\IMatchRepository.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Repository\\IMatchRepository.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Repository\\IMatchRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T17:13:23.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MatchSaveData.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Repository\\MatchSaveData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Repository\\MatchSaveData.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Repository\\MatchSaveData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Repository\\MatchSaveData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T17:00:07.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainMenuManager.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\MainMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\MainMenuManager.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\MainMenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\MainMenuManager.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T16:48:11.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DraftingUIManager.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\UI\\DraftingUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\DraftingUIManager.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\UI\\DraftingUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\DraftingUIManager.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAcwHUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T16:16:53.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameData.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\GameData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\GameData.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\GameData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\GameData.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAuwCUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T16:13:10.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PauseManager.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\PauseManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\PauseManager.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\PauseManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\PauseManager.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAwJYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T16:12:09.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AIBattleManager.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\AIBattleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\AIBattleManager.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\AIBattleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\AIBattleManager.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAkwKwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:49:31.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TurnHandler.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\TurnHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\TurnHandler.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\TurnHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\TurnHandler.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowFkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:45:39.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BattleGameManager.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\BattleGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\BattleGameManager.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\BattleGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\BattleGameManager.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:21:16.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DraftingGameManager.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\DraftingGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\DraftingGameManager.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\DraftingGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\DraftingGameManager.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAgwPcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T16:16:26.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MoveCommand.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Command\\MoveCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Command\\MoveCommand.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Command\\MoveCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Command\\MoveCommand.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwBcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T16:44:15.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ItemCommand.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Command\\ItemCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Command\\ItemCommand.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Command\\ItemCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Command\\ItemCommand.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wCcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:21:09.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Warrior.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\Warrior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Template\\Warrior.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\Warrior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Template\\Warrior.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T15:16:14.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ConsumableItem.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\ConsumableItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\ConsumableItem.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Manager\\ConsumableItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\ConsumableItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:19:47.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseUnit.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\BaseUnit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Template\\BaseUnit.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\BaseUnit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Template\\BaseUnit.cs",
+              "ViewState": "AgIAAHIBAAAAAAAAAAAAwDUBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:15:56.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Healer.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\Healer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Template\\Healer.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\Healer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Template\\Healer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:15:52.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Mage.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\Mage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Template\\Mage.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\Mage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Template\\Mage.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:15:49.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BattleUIManager.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Observer\\BattleUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Observer\\BattleUIManager.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Observer\\BattleUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Observer\\BattleUIManager.cs",
+              "ViewState": "AgIAACgBAAAAAAAAAAAAAEUBAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:01:37.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAIFormationExportStrategy.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Strategy\\IAIFormationExportStrategy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Strategy\\IAIFormationExportStrategy.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Strategy\\IAIFormationExportStrategy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Strategy\\IAIFormationExportStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T13:39:23.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JsonFormationExportStrategy.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Strategy\\JsonFormationExportStrategy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Strategy\\JsonFormationExportStrategy.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Strategy\\JsonFormationExportStrategy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Strategy\\JsonFormationExportStrategy.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T13:39:25.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "AIFormationExporter.cs",
               "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Strategy\\AIFormationExporter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Strategy\\AIFormationExporter.cs",
               "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Strategy\\AIFormationExporter.cs",
               "RelativeToolTip": "Assets\\Scripts\\Patterns\\Strategy\\AIFormationExporter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-03T13:39:29.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 23,
+              "Title": "Berserker.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\Berserker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Template\\Berserker.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\Berserker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Template\\Berserker.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T14:48:00.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Vampire.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\Vampire.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Template\\Vampire.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\Vampire.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Template\\Vampire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:15:54.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Assassin.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\Assassin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Template\\Assassin.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Template\\Assassin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Template\\Assassin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:15:51.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UnitIdleState.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\State\\UnitIdleState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\State\\UnitIdleState.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\State\\UnitIdleState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\State\\UnitIdleState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:13:27.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UnitWaitingSkillState.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\State\\UnitWaitingSkillState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\State\\UnitWaitingSkillState.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\State\\UnitWaitingSkillState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\State\\UnitWaitingSkillState.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T15:19:29.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UnitWaitingAttackState.cs",
+              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\State\\UnitWaitingAttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\State\\UnitWaitingAttackState.cs",
+              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\State\\UnitWaitingAttackState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Patterns\\State\\UnitWaitingAttackState.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T15:19:18.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "CsvFormationExportStrategy.cs",
               "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Strategy\\CsvFormationExportStrategy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Strategy\\CsvFormationExportStrategy.cs",
@@ -51,34 +518,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Patterns\\Strategy\\CsvFormationExportStrategy.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T13:39:27.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JsonFormationExportStrategy.cs",
-              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Strategy\\JsonFormationExportStrategy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Strategy\\JsonFormationExportStrategy.cs",
-              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Strategy\\JsonFormationExportStrategy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Strategy\\JsonFormationExportStrategy.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T13:39:25.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IAIFormationExportStrategy.cs",
-              "DocumentMoniker": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Strategy\\IAIFormationExportStrategy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Patterns\\Strategy\\IAIFormationExportStrategy.cs",
-              "ToolTip": "D:\\Game Programing\\Havoc\\Assets\\Scripts\\Patterns\\Strategy\\IAIFormationExportStrategy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Patterns\\Strategy\\IAIFormationExportStrategy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T13:39:23.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-03T13:39:27.509Z"
             }
           ]
         }

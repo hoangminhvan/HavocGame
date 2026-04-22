@@ -84,9 +84,8 @@ public class TurnHandler : MonoBehaviour
 
                 if (u.ownerPlayer == currentPlayerTurn)
                 {
-                    if (tile.currentElementalType == ElementalType.Damage) u.TakeDamage(10);
-                    u.RemoveShield();
-                    u.RegenMana();
+                    if (tile.currentElementalType == ElementalType.Damage) u.TakeDamage(15);
+
                     if (u.stunTurns > 0)
                     {
                         u.stunTurns--;
@@ -133,24 +132,37 @@ public class TurnHandler : MonoBehaviour
         BaseUnit[] allUnits = FindObjectsByType<BaseUnit>(FindObjectsSortMode.None);
         foreach (BaseUnit u in allUnits)
         {
+            // Chi thuc hien cho nhung Unit cua nguoi choi hien tai bat dau luot
             if (u.ownerPlayer == playerTurn && u.currentHP > 0)
             {
-                u.RegenMana();
-                u.RemoveShield();
+                u.RegenMana(); 
+                u.RemoveShield(); 
                 u.FaceClosestEnemy();
-                if (u.stunTurns > 0) u.stunTurns--;
+
+                if (u is Berserker b && b.buffTurns > 0)
+                {
+                    b.buffTurns--;
+                    if (b.buffTurns <= 0) b.ClearBuff();
+                }
+
                 if (u.stealthTurns > 0)
                 {
                     u.stealthTurns--;
                     if (u.stealthTurns <= 0) u.ClearStealth();
                 }
+
+                u.RefreshTileEffects();
+                u.NotifyHealthChanged();
             }
         }
     }
 
     private void ProcessElementalTiles()
     {
-        List<Tile> eligibleTiles = new List<Tile>();
+        List<Tile> eligibleTilesForUtility = new List<Tile>();
+        List<Tile> allTilesForDamage = new List<Tile>();
+        if (currentTurn == 1) return;
+
         foreach (var tile in BattleGameManager.Instance.allGridTiles.Values)
         {
             if (tile.currentElementalType != ElementalType.None)
@@ -158,18 +170,54 @@ public class TurnHandler : MonoBehaviour
                 tile.elementalDuration--;
                 if (tile.elementalDuration <= 0) tile.ClearElementalEffect();
             }
-            if (!tile.IsOccupied && tile.currentElementalType == ElementalType.None) eligibleTiles.Add(tile);
+
+            if (!tile.IsOccupied && tile.currentElementalType == ElementalType.None)
+            {
+                eligibleTilesForUtility.Add(tile);
+            }
+
+            if (tile.currentElementalType == ElementalType.None)
+            {
+                allTilesForDamage.Add(tile);
+            }
         }
-        int toAttempt = Mathf.Min(2, eligibleTiles.Count);
-        for (int i = 0; i < toAttempt; i++)
+
+        if (eligibleTilesForUtility.Count > 0)
         {
-            int idx = Random.Range(0, eligibleTiles.Count);
-            Tile st = eligibleTiles[idx];
-            eligibleTiles.RemoveAt(idx);
-            float roll = Random.value;
-            if (roll <= 0.10f) st.SetElementalEffect(ElementalType.Heal, 1);
-            else if (roll <= 0.20f) st.SetElementalEffect(ElementalType.Stealth, 1);
-            else if (roll <= 0.40f) st.SetElementalEffect(ElementalType.Damage, 2);
+            float utilityRoll = Random.value;
+            if (utilityRoll <= 0.45f)
+            {
+                eligibleTilesForUtility[Random.Range(0, eligibleTilesForUtility.Count)].SetElementalEffect(ElementalType.Heal, 1);
+            }
+            else if (utilityRoll <= 0.35f)
+            {
+                eligibleTilesForUtility[Random.Range(0, eligibleTilesForUtility.Count)].SetElementalEffect(ElementalType.Stealth, 1);
+            }
         }
-    }
+
+        float damageChance = Mathf.Min(0.85f, 0.30f + (currentTurn * 0.05f));
+
+        if (allTilesForDamage.Count > 0 && Random.value <= damageChance)
+        {
+            Tile centerTile = allTilesForDamage[Random.Range(0, allTilesForDamage.Count)];
+
+            List<Vector2Int> clusterCoords = HexGridUtils.GetTilesInRange(centerTile.GridCoords, 1, BattleGameManager.Instance.allGridTiles);
+
+            foreach (Vector2Int coord in clusterCoords)
+            {
+                if (BattleGameManager.Instance.allGridTiles.TryGetValue(coord, out Tile t))
+                    t.SetElementalEffect(ElementalType.Damage, 3);
+
+                    if (t.IsOccupied)
+                    {
+                        BaseUnit unit = t.OccupiedUnit.GetComponent<BaseUnit>();
+                        if (unit != null)
+                        {
+                            unit.TakeDamage(15); 
+                        }
+                    }
+                }
+            }
+        }
+    
 }

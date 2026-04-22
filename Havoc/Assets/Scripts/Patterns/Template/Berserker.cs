@@ -11,10 +11,10 @@ public class Berserker : BaseUnit
 
         maxHP = 120;
         maxMana = 40;
-        damage = 26;
+        damage = 16;
         defense = 8;
 
-        moveRange = 3;
+        moveRange = 2;
         attackRange = 1;
 
         manaRegen = 10;
@@ -114,7 +114,7 @@ public class Berserker : BaseUnit
         if (currentMana < skillManaCost) return;
 
         UseMana(skillManaCost);
-        StartCoroutine(PlayTemporaryAnimation(animSkill, 0.5f));
+        StartCoroutine(PlayTemporaryAnimation(animSkill, 1f));
 
         int sacrificeAmount = Mathf.RoundToInt(maxHP * 0.25f);
         if (currentHP <= sacrificeAmount) sacrificeAmount = currentHP - 1;

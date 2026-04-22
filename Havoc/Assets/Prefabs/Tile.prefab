@@ -916,7 +916,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -1238811333015114792, guid: 956449b1ca56ac542b731c3799f554ca, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.78039217}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.33333334}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2069,6 +2069,7 @@ MonoBehaviour:
   unitName: 
   skillDescription: 
   currentTile: {fileID: 0}
+  ownerPlayer: 0
   maxHP: 0
   currentHP: 0
   maxMana: 0
@@ -2082,7 +2083,6 @@ MonoBehaviour:
   skillManaCost: 0
   isOffensiveSkill: 0
   isInstantSkill: 0
-  ownerPlayer: 0
   hasShield: 0
   hpSlider: {fileID: 528656511759650433}
   manaSlider: {fileID: 198358783205398654}

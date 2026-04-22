@@ -40,7 +40,7 @@ public class Warrior : BaseUnit
         // Xac suat gay choang (Stun)
         if (targetUnit.currentHP > 0 && Random.value <= 0.5f)
         {
-            targetUnit.ApplyStun(1);
+            targetUnit.ApplyStun(2);
         }
 
         // Tu kich hoat giap (Shield)
